@@ -60,8 +60,6 @@ new Alice()
 
 ###Methods
 
-> Arguments within [ ] are optional.
-
 ```javascript
 /*
  * Add an edge to the graph.
