@@ -1,0 +1,45 @@
+{
+  "name": "alice"
+  , "version": "0.0.1"
+  , "description": "Alice, a simple and performant data structure for bipartite graphs with integer values as vertices."
+  , "homepage": "https://github.com/rootslab/alice"
+  , "private": false
+  , "repository": {
+    "type": "git"
+    , "url": "git://github.com/rootslab/alice.git"
+  }
+  , "keywords": [
+    "alice"
+    , "graph"
+    , "2-graph"
+    , "bipartite graph"
+    , "integers"
+    , "cyclic graph"
+    , "acyclic graph"
+    , "prune"
+    , "cut"
+    , "data structure"
+    , "util"
+  ]
+  , "author": {
+    "name": "Guglielmo Ferri"
+    , "email": "44gatti@gmail.com"
+  }
+  , "dependencies": {
+  },
+  "devDependencies": {
+     "dado" : ">=0.2.0"
+  }
+  , "main": "index"
+  , "engines": {
+    "node": ">=0.10.x"
+  }
+  , "scripts": {
+    "test": "node test/run.js"
+  }
+  , "license": "MIT"
+  , "readmeFilename": "Readme.md"
+  , "bugs": {
+    "url": "https://github.com/rootslab/alice/issues"
+  }
+}
