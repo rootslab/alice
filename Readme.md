@@ -60,16 +60,18 @@ new Alice()
 
 ###Methods
 
+> Arguments between [] are optional.
+
 ```javascript
 /*
- * Add an edge to the graph.
+ * Add an edge to the graph. 
  */
-Alice#add : function ( Number v, Number w ) : Number
+Alice#add : function ( Number x, Number y [, Boolean strict [, Number weight ] ] ) : Number
 
 /*
  * Cut an edge from the graph.
  */
-Alice#cut : function ( Number v, Number w ) : Number
+Alice#cut : function ( Number x, Number y ) : Number
 
 /*
  * Clear edges and vertices.

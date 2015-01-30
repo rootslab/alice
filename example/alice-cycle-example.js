@@ -6,7 +6,7 @@ var log = console.log
 
 // same edge
 ed.add( 1, 2 );
-ed.add( 2, 1 );
+ed.add( 2, 1, true );
 
 // vertex loop
 ed.add( 2, 2 );
@@ -16,12 +16,13 @@ ed.cut( 2, 2 );
 ed.cut( 2, 1 );
 ed.add( 2, 1 );
 ed.cut( 1, 2 );
+ed.add( 1, 2 );
 
 // add some edges
 ed.add( 5, 4 );
 ed.add( 4, 3 );
 ed.add( 4, 1 );
-ed.add( 1, 2 );
+
 // add a cycle
 ed.add( 2, 5 );
 
@@ -38,4 +39,5 @@ log();
 log( '- edge set is %sempty! (%d edges found)', ed.edges ? 'not ' : '', ed.edges );
 log();
 if ( ed.edges ) log( '- cycle found:', ed.e );
+else log(  '- no cycle found!' );
 log();
