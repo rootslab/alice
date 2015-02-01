@@ -66,7 +66,7 @@ new Alice()
 /*
  * Add an edge to the graph. 
  */
-Alice#add : function ( Number x, Number y [, Boolean strict [, Number weight ] ] ) : Number
+Alice#add : function ( Number x, Number y [, Boolean strict ] ) : Number
 
 /*
  * Cut an edge from the graph.
