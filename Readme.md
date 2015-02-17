@@ -40,7 +40,7 @@ var Alice  = require( 'alice' );
 ```bash
  $ cd alice/
  # install or update devDependecies
- $ npm install --dev
+ $ npm install 
  # run tests
  $ npm test
 ```

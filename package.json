@@ -1,6 +1,6 @@
 {
   "name": "alice"
-  , "version": "0.0.9"
+  , "version": "0.0.10"
   , "description": "Alice, a simple and performant data structure for bipartite graphs with integer values as vertices."
   , "homepage": "https://github.com/rootslab/alice"
   , "private": false
