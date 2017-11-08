@@ -81,7 +81,7 @@ Alice.v : Number
 /*
  * Add an edge to the graph. 
  */
-Alice#add : function ( Number x, Number y [, Boolean strict ] ) : Number
+Alice#add : function ( Number x, Number y [, Boolean strict [, Object label ] ] ) : Number
 
 /*
  * Cut an edge from the graph.
@@ -95,8 +95,9 @@ Alice#fire : function () : Alice
 
 /*
  * Prune edges to test graph acyclicity.
+ * It optionally returns every edge as a single array [ x, y ]
  */
-Alice#prune : function () : Array
+Alice#prune : function ( [ Boolean edge_as_array ] ) : Array
 
 /*
  * Perform A Depth-First Search starting from the input vertex.
