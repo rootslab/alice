@@ -42,11 +42,7 @@ var Alice  = require( 'alice' );
  # run tests
  $ npm test
 ```
-> __to execute a single test file simply do__:
 
-```bash
- $ node test/file-name.js
-```
 
 ### Constructor
 
