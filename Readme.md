@@ -6,23 +6,21 @@
 [![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/alice.svg?style=flat)](https://codeclimate.com/github/rootslab/alice)
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/alice#mit-license)
 
+![NODE VERSION](https://img.shields.io/node/v/alice.svg)
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/alice.svg?style=flat)](http://travis-ci.org/rootslab/alice)
 [![BUILD STATUS](http://img.shields.io/david/rootslab/alice.svg?style=flat)](https://david-dm.org/rootslab/alice)
 [![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/alice.svg?style=flat)](https://david-dm.org/rootslab/alice#info=devDependencies)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/alice.svg?style=flat)](http://npm-stat.com/charts.html?package=alice)
 
-[![NPM GRAPH1](https://nodei.co/npm-dl/alice.png)](https://nodei.co/npm/alice/)
+[![NPM MONTHLY](http://img.shields.io/npm/dm/alice.svg?style=flat)](http://npm-stat.com/charts.html?package=alice)
+![NPM YEARLY](https://img.shields.io/npm/dy/alice.svg)
 
-[![NPM GRAPH2](https://nodei.co/npm/alice.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/alice/)
+[![NPM GRAPH](https://nodei.co/npm/alice.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/alice/)
 
-[![status](https://sourcegraph.com/api/repos/github.com/rootslab/alice/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/alice)
-[![views](https://sourcegraph.com/api/repos/github.com/rootslab/alice/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/alice)
-[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/alice/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/alice)
 
 > __Alice__, a simple and performant data structure for bipartite graphs with integer values as vertices.
 
 
-###Install
+### Install
 
 ```bash
 $ npm install alice [-g]
@@ -33,7 +31,7 @@ $ npm install alice [-g]
 ```javascript
 var Alice  = require( 'alice' );
 ```
-###Run Tests
+### Run Tests
 
 > __to run all test files, install devDependecies:__
 
@@ -50,7 +48,7 @@ var Alice  = require( 'alice' );
  $ node test/file-name.js
 ```
 
-###Constructor
+### Constructor
 
 ```javascript
 Alice()
@@ -58,7 +56,7 @@ Alice()
 new Alice()
 ```
 
-###Methods
+### Methods
 
 > Arguments between [] are optional.
 
