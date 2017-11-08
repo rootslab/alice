@@ -56,6 +56,27 @@ Alice()
 new Alice()
 ```
 
+###  Properties
+
+
+```javascript
+/*
+ * the number of edges (|E|).
+ */
+Alice.edges : Number
+
+/*
+ * graph edges
+ */
+Alice.e : Number
+
+/*
+ * graph vertices
+ */
+Alice.v : Number
+
+```
+
 ### Methods
 
 > Arguments between [] are optional.
@@ -81,11 +102,30 @@ Alice#fire : function () : Alice
  */
 Alice#prune : function () : Array
 
+/*
+ * Perform A Depth-First Search starting from the input vertex.
+ * It returns a list of vertices
+ */
+Alice#deptth : function ( Number x ) : Array
+
+/*
+ * Perform A Breadth-First Search starting from the input vertex.
+ * It returns a list of vertices
+ */
+Alice#breadth : function ( Number x ) : Array
+
+/*
+ * Returns .
+ * It returns the list of edges
+ */
+Alice#elist() : function ( Number x ) : Array
+
+
 ```
 
 ### MIT License
 
-> Copyright (c) 2015 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
+> Copyright (c) 2015-present &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
 
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
