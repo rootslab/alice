@@ -106,7 +106,7 @@ Alice#prune : function () : Array
  * Perform A Depth-First Search starting from the input vertex.
  * It returns a list of vertices
  */
-Alice#deptth : function ( Number x ) : Array
+Alice#depth : function ( Number x ) : Array
 
 /*
  * Perform A Breadth-First Search starting from the input vertex.
