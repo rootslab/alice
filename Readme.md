@@ -61,7 +61,7 @@ new Alice()
 
 ```javascript
 /*
- * the number of edges (|E|).
+ * total edges
  */
 Alice.edges : Number
 
@@ -118,7 +118,7 @@ Alice#breadth : function ( Number x ) : Array
  * Returns .
  * It returns the list of edges
  */
-Alice#elist() : function ( Number x ) : Array
+Alice#elist() : function () : Array
 
 
 ```
