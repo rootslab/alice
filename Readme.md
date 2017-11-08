@@ -115,7 +115,6 @@ Alice#depth : function ( Number x ) : Array
 Alice#breadth : function ( Number x ) : Array
 
 /*
- * Returns .
  * It returns the list of edges
  */
 Alice#elist() : function () : Array
