@@ -2,7 +2,6 @@
 
 [![NPM VERSION](http://img.shields.io/npm/v/alice.svg?style=flat)](https://www.npmjs.org/package/alice)
 [![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg?style=flat)](https://www.codacy.com/public/44gatti/alice)
-[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/alice.svg?style=flat)](https://codeclimate.com/github/rootslab/alice)
 [![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/alice.svg?style=flat)](https://codeclimate.com/github/rootslab/alice)
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/alice#mit-license)
 
