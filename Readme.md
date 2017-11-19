@@ -32,11 +32,11 @@ var Alice  = require( 'alice' );
 ```
 ### Run Tests
 
-> __to run all test files, install devDependecies:__
+> __to run all test files, install devDependencies:__
 
 ```bash
  $ cd alice/
- # install or update devDependecies
+ # install or update devDependencies
  $ npm install 
  # run tests
  $ npm test
